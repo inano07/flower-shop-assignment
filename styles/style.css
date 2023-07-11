@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    .banner-container
+    {
+        display: flex;
+        justify-content: space-around;
+        height: 550px;
+        align-items: center;
+        background-color: rgb(252,238,241);
+        
+    }
+    .banner-img
+    {
+        width: 400px;
+        
+    }
+    .title
+    {
+        font-size: 50px;
+    }
+    .btn
+    {
+        padding: 5px 10px;
+        border: 0px;
+        background-color: rgb(229,84,115);
+        color: white;
+        border-radius: 5px;
+    }
+}

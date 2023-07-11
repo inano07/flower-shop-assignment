@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower shop</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +9,15 @@
 <body>
    <!-- this is banner section  -->
     <header>
+        <nav class="menu-container">
+            <div class="logo">
+                <img class="logo-photo" src="flower Asset/group 58.png"></div>
+            <div class="menu">
+                <li class="item">Completed</li>
+                <li class="item">Canceled</li>
+                <li class="item">Pending</li>
+            </div>
+        </nav>
       <dev class="banner-container">
         <div class="banner-text">
             <h1 class="title">
@@ -20,20 +26,32 @@
             <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
             </p>
-            <p>
-                <button class="btn">Shop Now</button>
-            </p>
-        </div>
-        <div class="banner-photo">
+            <button class="btn">Shop Now</button>
+            </div>
+            <div class="banner-photo">
             <img class="banner-img" src="flower Asset/pngwing 10.png" alt="tulip flowers">
         </div>
       </dev>
     </header>
-    <body>
+    <main>
+        <!-- bonus section-->
+        <div class="bonus">
+            <h2>Our Featured Flowers</h2>
+            <p> It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout
+            </p>
+            <p>
+            <img src="flower Asset/pngwing 6.png" alt="">
+            <img src="flower Asset/pngwing 5.png" alt="">
+            <img src="flower Asset/pngwing 7.png" alt="">
+        </p>
+               
+        </div>
+        <!-- 1st mandatory section-->
         <dev class="banner-container">
             <div class="banner-text">
                 <h2 class="title-body">
-                    Hot Deal ! Sale Up To 25% <dev class="highlight">Off</dev>
+                    Hot Deal ! Sale Up To 25% <span class="highlight">Off</span>
                 </h3>
                 <p>
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -46,9 +64,7 @@
                 <img class="body-img" src="flower Asset/pngwing 8.png" alt="flower vase">
             </div>
         </dev>
-        <dev>
-
-        </dev>
+        <!-- 2nd mandatory section-->
         <dev class="socialmedia">
             <h2>
                 Instragram
@@ -62,22 +78,25 @@
                    <img src="flower Asset/rectangle 5 (2).png" alt="red roses">
                 </div>
         </dev>
+        <!-- 3rd mandatory section-->
         <div class="offers">
-            <h2>Get The Latest Deals</h2>
-            <p>$30 coupon for first shopping</p>
-            <input type="email" name="email" id="email" placeholder="Inter your email here">
-            <button class="btn"> Subscribe</button>
+            <span class="deal"><h2>Get The Latest Deals</h2>
+            <p>$30 coupon for first shopping</p></span>
+           <span> <input type="email" name="email" id="email" placeholder="Inter your email here">
+            <button class="btn"> Subscribe</button></span>
         </div>
 
-    </body>  
+    </main> 
+    <!-- this is the last part--> 
     <footer class="footer">
         <h2>
-            <p class="hihglight">Flower</p>Shop 
+            <span class="glow">Flower</span>Shop 
         </h2>
         <div>
             It is a long established fact that a reader will be distracted by the readable
             content of a page when looking at its layout</div>
-            <div>
+            <div class="warnning">
+                @2020-2023, FlowerShop.com. All rights reserved.
 
             </div>
     </footer>

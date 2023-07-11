@@ -2,49 +2,132 @@
 
     /*this section is for all */
     margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
-    .btn
-    {
-        padding: 5px 10px;
-        border: 0px;
-        background-color: rgb(229,84,115);
-        color: white;
-        border-radius: 5px;
-    }
-
-    .banner-container
-    {
+    
+}
+.menu-container{
+    background: #000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .menu{
         display: flex;
-        justify-content: space-around;
-        height: 550px;
-        align-items: center;
-        background-color: rgb(252,238,241);
-        
+        margin-left: 20px;
+
     }
-    .banner-img
-    {
-        width: 400px;
-        
+    .item{
+        margin: 30px;
+
     }
-    .title
-    {
-        font-size: 50px;
+    .item:hover{
+        color: chartreuse;
     }
     
-    .highlight
-    {
-        color: rgb(229,84,115))
+.logo-photo{
+    width: 100px;
+}
+
+}
+.menu{
+    color: white;
+    list-style: none;
+}
+.banner-container
+{
+    display: flex;
+    justify-content: space-around;
+    height: 505px;
+    align-items: center;
+    background-color: rgb(252,238,241);
+    
+}
+.btn
+{
+    padding: 5px 10px;
+    border: 0px;
+    background-color: rgb(229,84,115);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+.banner-text{
+    display: flex ;
+flex-direction: column;
+}
+.banner-img
+{
+    width: 400px;
+    
+}
+.title
+{
+    font-size: 50px;
+}
+
+.highlight
+{
+    color: rgb(229,84,115);
+}
+.bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body-img
+{
+   width: 250x; 
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.img{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border-radius: 10px;
+
+}
+.offers{
+    background-image: url("../flower Asset/rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 100px;
+    #email{
+        padding: 5px 10px;
+        border: 0px;
     }
-    .body-img
-    {
-       width: 250x; 
-    }
-    .offers
-    {
-        
-    }
+
+
+}
+
 .footer
-    {
-        background-color: black;
-        color: white;
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    height: 250px;
+    align-items: center;
+    padding: 50px;
+
+    .glow{
+        color: red;
     }
+    .warnning{
+        color: grey;
+    }
+}

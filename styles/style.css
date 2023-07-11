@@ -73,9 +73,14 @@ flex-direction: column;
     color: rgb(229,84,115);
 }
 .bonus{
+    
+}
+.tree-type{
+    list-style: none;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 .body-img
 {
